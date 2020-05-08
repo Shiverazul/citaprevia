@@ -1,0 +1,113 @@
+html,body{
+    margin:0;
+    height:100%;
+}
+body 
+    {
+    background-image: url(../img/fondo-luna-Carlos1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 75%;    /* 100% pc */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:100%;
+}
+.contenedor {
+    width: 100%;
+    height: 100%;
+}    
+.boton {
+    top: 70px;
+    text-decoration:none;
+    font-weight: 600; 
+    font-size: 10px;
+    color: black;
+    background: rgb(155, 223, 146);
+    background-color:rgb(109, 130, 248);
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:100px;
+    border-color:rgb(182, 184, 35);
+}    
+ h1{
+ 	  font-family:'Times New Roman', Times, serif;
+    background: rgb(155, 223, 146);
+    font-size: 30px;
+  
+ 	}
+ h2{
+ 	  font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(35, 137, 184);
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 200px;
+  
+ 	}
+.datos{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(159, 190, 204);
+    background-color: rgb(109, 130, 248);
+    margin-top: 100px;
+    margin-left: 0px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:100px;
+    border-color:rgb(182, 184, 35);
+    width: 100% ;
+ 
+}
+.fecha{
+    color: rgb(35, 137, 184);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+.respuesta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    width: 90% ;
+    color: rgb(35, 137, 184);
+    position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.respuesta2 {
+    font-weight: 600; 
+    font-size: 20px;
+    color: rgb(35, 137, 184);
+    background: rgb(155, 223, 146);
+    background-color:black;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:100px;
+    border-color:rgb(182, 184, 35);
+}    
+
+.noinput{
+    font-size: 20px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: lightgreen;
+}

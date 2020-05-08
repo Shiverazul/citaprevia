@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Cita Previa Carles Cloquell</title>
+  <meta charset="UTF-8">
+  <script src="./bundle.js" defer></script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=devicewidth, minimal-ui">
+
+  <!– for ios 7 style, multi-resolution icon of 152×152 –>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+  <link rel="apple-touch-icon" href="icon-152.png">
+  <!– for Chrome on Android, multi-resolution icon of 196×196 –>
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" sizes="196×196" href="icon-196.png">
+
+</head>
+
+<script>
+var f = new Date();
+var dd = String(f.getDate()).padStart(2, '0');
+var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
+document.getElementById('fecha')= dd + "-" + mm + "-" + f.getFullYear();
+		
+	</script>>
+
+      <div id="fecha" class=" fecha" > 07-05-2020 </div>
+
+  <div id=" contenedor">
+
+
+      <div id="searchTerm"   align="left" class=" datos"> Sol.licitud de cita previa</div>
+
+      <h1>  Dia </h1>
+
+      <input id="fecha" type="number" max="9" min="9" placeholder="Fecha" class=" noinput">
+
+      <h1>     Hora </h1>
+      <input id="hora"  type="number" max="9" min="9" placeholder="Hora" class=" noinput">
+      <h2>     Gracies per tot !!</h2>
+	
+  </div>
+  </body>
+   
+</html>
