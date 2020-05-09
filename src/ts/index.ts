@@ -2,15 +2,22 @@
 require('file-loader?name=[name].[ext]!../index.html');
 
 //Importar imagenes: Al hacer el build se creara la imagen en dist/assets
-const asrc = require('../img/fondo-luna-Carlos1.jpg');
+//const asrc = require('../img/fondo-luna-Carlos1.jpg';
 //console.log("Imagen creada en: " + asrc);
-document.body.style.background=asrc;
+
 //Importar clase
 import { Person } from './class.person';
 
 //Llamar clase
-const p = new Person("Jon Doe");
-console.log("My name is " + p.name);
+//const p = new Person("Jon Doe");
+//console.log("My name is " + p.name);
+
+//Definicion de estilo de pantalla
+document.body.style.background="black" ;
+document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
+document.body.style.backgroundRepeat = "no-repeat";  
+document.body.style.backgroundAttachment = "fixed"; 
+document.body.style.backgroundSize   = "75%"; 
 
 
 var f = new Date();

@@ -88,12 +88,33 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(4);
+__webpack_require__(1);
 module.exports = __webpack_require__(3);
 
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+//Copy html to dist
+__webpack_require__(2);
+//Llamar clase
+//const p = new Person("Jon Doe");
+//console.log("My name is " + p.name);
+//Definicion de estilo de pantalla
+document.body.style.background = "black";
+document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundAttachment = "fixed";
+document.body.style.backgroundSize = "75%";
+var f = new Date();
+var dd = String(f.getDate()).padStart(2, '0');
+var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
+document.getElementById('fecha').innerHTML = dd + "-" + mm + "-" + f.getFullYear();
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -101,51 +122,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "index.html");
 
 /***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "/assets/fondo-luna-Carlos1.jpg";
-
-/***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-
-/***/ }),
-/* 4 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./src/ts/class.person.ts
-class Person {
-    constructor(_name) {
-        this._name = _name;
-    }
-    get name() { return this._name; }
-    ;
-}
-
-// CONCATENATED MODULE: ./src/ts/index.ts
-//Copy html to dist
-__webpack_require__(1);
-//Importar imagenes: Al hacer el build se creara la imagen en dist/assets
-const asrc = __webpack_require__(2);
-//console.log("Imagen creada en: " + asrc);
-document.body.style.background = asrc;
-//Importar clase
-
-//Llamar clase
-const p = new Person("Jon Doe");
-console.log("My name is " + p.name);
-var f = new Date();
-var dd = String(f.getDate()).padStart(2, '0');
-var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
-document.getElementById('fecha').innerHTML = dd + "-" + mm + "-" + f.getFullYear();
-
 
 /***/ })
 /******/ ]);
