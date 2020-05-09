@@ -17,7 +17,9 @@ body {
     color: rgb(35, 137, 184);
     position: relative;
     margin-top: 0px;
-    margin-left: 250px;
+    margin-left: 1000;
+    font-size: 60px;
+
 }
 
 .datos{
@@ -37,10 +39,10 @@ body {
     width: 100% ;
 }
 
- p{
+ p {
     font-family:'Times New Roman', Times, serif;
     background: rgb(155, 223, 146);
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .noinput{
@@ -48,6 +50,6 @@ body {
     background: rgb(155, 223, 146);
     border: none;
     font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 60px;
     margin-left: 0px;
 }
