@@ -88,8 +88,8 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(3);
-module.exports = __webpack_require__(2);
+__webpack_require__(4);
+module.exports = __webpack_require__(3);
 
 
 /***/ }),
@@ -104,10 +104,16 @@ __webpack_require__.r(__webpack_exports__);
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+module.exports = __webpack_require__.p + "/assets/fondo-luna-Carlos1.jpg";
 
 /***/ }),
 /* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -127,8 +133,9 @@ class Person {
 //Copy html to dist
 __webpack_require__(1);
 //Importar imagenes: Al hacer el build se creara la imagen en dist/assets
-//const asrc = require('../img/fondo-luna-Carlos1.jpg);
+const asrc = __webpack_require__(2);
 //console.log("Imagen creada en: " + asrc);
+document.body.style.background = asrc;
 //Importar clase
 
 //Llamar clase

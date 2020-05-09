@@ -2,9 +2,9 @@
 require('file-loader?name=[name].[ext]!../index.html');
 
 //Importar imagenes: Al hacer el build se creara la imagen en dist/assets
-//const asrc = require('../img/fondo-luna-Carlos1.jpg);
+const asrc = require('../img/fondo-luna-Carlos1.jpg');
 //console.log("Imagen creada en: " + asrc);
-
+document.body.style.background=asrc;
 //Importar clase
 import { Person } from './class.person';
 
