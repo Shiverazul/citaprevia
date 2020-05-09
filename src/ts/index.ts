@@ -7,10 +7,13 @@ require('file-loader?name=[name].[ext]!../index.html');
 
 //Importar clase
 import { Person } from './class.person';
+//@ts-ignore
+import html2canvas from 'html2canvas';
 
 //Llamar clase
 //const p = new Person("Jon Doe");
 //console.log("My name is " + p.name);
+
 
 //Definicion de estilo de pantalla
 document.body.style.background="black" ;
@@ -24,4 +27,4 @@ var f = new Date();
 var dd = String(f.getDate()).padStart(2, '0');
 var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
 document.getElementById('fecha').innerHTML = dd + "-" + mm + "-" + f.getFullYear();
-		
+
