@@ -16,8 +16,8 @@ body {
 .fecha{
     color: rgb(35, 137, 184);
     position: relative;
-    margin-top: 0px;
-    margin-left: 1000;
+    margin-top: 10px;
+    margin-left: 350;
     font-size: 60px;
 
 }
@@ -30,7 +30,7 @@ body {
     background-color: rgb(109, 130, 248);
     //background-color:rgb(214, 154, 75);
 
-    margin-top: 450px;
+    margin-top: 250px;
     margin-left: 0px;
     border-width: 3px;
     border-style: solid;
@@ -38,13 +38,19 @@ body {
     border-color:rgb(182, 184, 35);
     width: 100% ;
 }
-
- p {
+p {
     font-family:'Times New Roman', Times, serif;
     background: rgb(155, 223, 146);
     font-size: 60px;
 }
-
+h2{
+ font-family:'Times New Roman', Times, serif;
+ font-size: 40px;
+ color: rgb(35, 137, 184);
+ position: fixed;
+ margin-top: 55px;
+ margin-left: 200px;
+}
 .noinput{
     width: 100%;
     background: rgb(155, 223, 146);
