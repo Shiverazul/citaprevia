@@ -5,6 +5,7 @@ require('file-loader?name=[name].[ext]!../index.html');
 //Importar imagenes: Al hacer el build se creara la imagen en dist/assets
 //const asrc = require('../img/fondo-luna-Carlos1.jpg';
 //const asrc = require('../img/Carles_Cloquell_3-250x186.jpg');
+//const asrc = require('..//img/logo-carlescloquell.png');
 
 //console.log("Imagen creada en: " + asrc);
 
@@ -22,10 +23,11 @@ import html2canvas from 'html2canvas';
 document.body.style.background="black" ;
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/Carles_Cloquell_3-250x186.jpg')";
-document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/logo-carlescloquell.png')";
+document.body.style.backgroundImage = "url('/Users/Asus/citaprevia/citaprevia/src/img/logo-carlescloquell.png')";
 document.body.style.backgroundRepeat = "no-repeat";  
 document.body.style.backgroundAttachment = "fixed"; 
 document.body.style.backgroundSize   = "75%"; 
+
 
 
 var f = new Date();
