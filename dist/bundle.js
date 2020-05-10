@@ -7162,7 +7162,7 @@ $("#download").click(() => {
         var link = document.getElementById('download');
         var a = $("<a>")
             .attr("href", canvas.toDataURL("image/png"))
-            .attr("download", "img.png")
+            .attr("download", "citaprevia.png")
             .appendTo("body");
         a[0].click();
         a.remove();
