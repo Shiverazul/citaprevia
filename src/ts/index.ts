@@ -36,10 +36,12 @@ $("#download").click(() => {
     html2canvas(document.body).then(canvas => {
         var link = (<HTMLAnchorElement>document.getElementById('download'));
         var a = $("<a>")
-            .attr("href", canvas.toDataURL("image/png"))
+        .attr("width", "360")
+        .attr("height", "740")
+        .attr("href", canvas.toDataURL("image/png"))
             .attr("download", "citaprevia.png")
             .appendTo("body");
-        a[0].click();
+            a[0].click();
         a.remove();
     });
 });
