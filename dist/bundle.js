@@ -7128,7 +7128,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(2);
-module.exports = __webpack_require__(6);
+module.exports = __webpack_require__(5);
 
 
 /***/ }),
@@ -7141,10 +7141,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var html2canvas__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(html2canvas__WEBPACK_IMPORTED_MODULE_0__);
 //Copy html to dist
 __webpack_require__(3);
-//Importar imagenes: Al hacer el build se creara la imagen en dist/assets
-//const asrc = require('../img/fondo-luna-Carlos1.jpg';
-//const asrc = require('../img/Carles_Cloquell_3-250x186.jpg');
-const asrc = __webpack_require__(4);
 //@ts-ignore
 
 //Llamar clase
@@ -7154,7 +7150,7 @@ const asrc = __webpack_require__(4);
 document.body.style.background = "black";
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/Carles_Cloquell_3-250x186.jpg')";
-document.body.style.backgroundImage = "url('/Users/Asus/citaprevia/citaprevia/src/img/logo-carlescloquell.png')";
+//document.body.style.backgroundImage = "url('/Users/Asus/citaprevia/citaprevia/src/img/logo-carlescloquell.png')";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundAttachment = "fixed";
 document.body.style.backgroundSize = "75%";
@@ -7162,7 +7158,7 @@ var f = new Date();
 var dd = String(f.getDate()).padStart(2, '0');
 var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
 document.getElementById('fecha').innerHTML = dd + "-" + mm + "-" + f.getFullYear();
-const $ = __webpack_require__(5);
+const $ = __webpack_require__(4);
 $("#download").click(() => {
     html2canvas__WEBPACK_IMPORTED_MODULE_0___default()(document.body).then(canvas => {
         var link = document.getElementById('download');
@@ -7188,12 +7184,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "/assets/logo-carlescloquell.png";
-
-/***/ }),
-/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -18072,7 +18062,7 @@ return jQuery;
 
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
