@@ -7161,8 +7161,8 @@ $("#download").click(() => {
     html2canvas__WEBPACK_IMPORTED_MODULE_0___default()(document.body).then(canvas => {
         var link = document.getElementById('download');
         var a = $("<a>")
-            .attr("width", "340")
-            .attr("height", "700")
+            .attr("width", "320")
+            .attr("height", "600")
             .attr("href", canvas.toDataURL("image/png"))
             .attr("download", "citaprevia.png")
             .appendTo("body");
