@@ -6,7 +6,7 @@ html,body{
 body{
 //        background-color:black;   
 //        background-image: url('../img/fondo-luna-Carlos1.jpg');
-        background-image: "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
+//        background-image: "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
 //        background-repeat: no-repeat;
 //        background-attachment: fixed;
 //        background-size: 75%;    /* 100% pc */
@@ -39,13 +39,12 @@ body{
 p{
     font-family:'Times New Roman', Times, serif;
     background: rgb(155, 223, 146);
-    font-size: 30px;//60
+    font-size: 20px;//60
 }
 h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;//40
     color: rgb(35, 137, 184);
-    position: fixed;
     margin-top: 55px;
     margin-left: 70px;//200
 }
@@ -54,11 +53,11 @@ h2{
     background: rgb(155, 223, 146);
     border: none;
     font-family:'Times New Roman', Times, serif;
-    font-size: 30px;//60
+    font-size: 20px;//60
     margin-left: 0px;
 }
 .screenshot {
-    top: 5px;
+    top: 10px;
     text-decoration:none;
     font-weight: 10; 
     font-size: 1px;
@@ -67,12 +66,12 @@ h2{
     background-color:rgb(182, 184,35);
     float: right;
     margin-right: 0px;
-    margin-top: 200px;//400
+    margin-top: 0px;//400
     width: 10px;
-    padding-top:10px;
+    padding-top:5px;
     padding-bottom:10px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:20px;
+    padding-right:320px;
     border-width: 3px;
     border-style: solid;
     border-radius:100px;

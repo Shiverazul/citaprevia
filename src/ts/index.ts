@@ -36,8 +36,8 @@ $("#download").click(() => {
     html2canvas(document.body).then(canvas => {
         var link = (<HTMLAnchorElement>document.getElementById('download'));
         var a = $("<a>")
-        .attr("width", "360")
-        .attr("height", "740")
+        .attr("width", "340")
+        .attr("height", "700")
         .attr("href", canvas.toDataURL("image/png"))
             .attr("download", "citaprevia.png")
             .appendTo("body");
