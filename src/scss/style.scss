@@ -3,7 +3,7 @@ html,body{
     height:100%;
     width: 100%;
 }
-body {
+body{
 //        background-color:black;   
 //        background-image: url('../img/fondo-luna-Carlos1.jpg');
 //        background-repeat: no-repeat;
@@ -16,18 +16,18 @@ body {
     color: rgb(35, 137, 184);
     position: relative;
     margin-top: 10px;
-    margin-left: 500;
-    font-size: 60px;
+    margin-left: 250;//550
+    font-size: 30px; //60
 }
 
 .datos{
     font-family:'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 30px;//60
     color: black;
     background-color: rgb(159, 190, 204);
     background-color: rgb(109, 130, 248);
     //background-color:rgb(214, 154, 75);
-    margin-top: 500px;
+    margin-top: 250px;//500
     margin-left: 0px;
     border-width: 3px;
     border-style: solid;
@@ -35,25 +35,25 @@ body {
     border-color:rgb(182, 184, 35);
     width: 100% ;
 }
-p {
+p{
     font-family:'Times New Roman', Times, serif;
     background: rgb(155, 223, 146);
-    font-size: 60px;
+    font-size: 30px;//60
 }
 h2{
     font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 20px;//40
     color: rgb(35, 137, 184);
     position: fixed;
     margin-top: 55px;
-    margin-left: 200px;
+    margin-left: 100px;//200
 }
 .noinput{
     width: 100%;
     background: rgb(155, 223, 146);
     border: none;
     font-family:'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 30px;//60
     margin-left: 0px;
 }
 .screenshot {
@@ -66,7 +66,7 @@ h2{
     background-color:rgb(182, 184,35);
     float: right;
     margin-right: 0px;
-    margin-top: 400px;
+    margin-top: 200px;//400
     width: 10px;
     padding-top:10px;
     padding-bottom:10px;
