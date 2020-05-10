@@ -7148,8 +7148,9 @@ __webpack_require__(3);
 //console.log("My name is " + p.name);
 //Definicion de estilo de pantalla
 document.body.style.background = "black";
-document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
+//document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/Carles_Cloquell_3-250x186.jpg')";
+document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/logo-carlescloquell.png')";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundAttachment = "fixed";
 document.body.style.backgroundSize = "75%";
