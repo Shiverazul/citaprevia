@@ -20,6 +20,7 @@ import html2canvas from 'html2canvas';
 
 
 //Definicion de estilo de pantalla
+
 document.body.style.background="black" ;
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
 //document.body.style.backgroundImage = "url('https://shiverazul.github.io/citaprevia/dist/assets/Carles_Cloquell_3-250x186.jpg')";
@@ -33,9 +34,20 @@ var dd = String(f.getDate()).padStart(2, '0');
 var mm = String(f.getMonth() + 1).padStart(2, '0'); //January is 0!
 document.getElementById('fecha').innerHTML = dd + "-" + mm + "-" + f.getFullYear();
 
+
+
+
+
 const $ = require("jquery");
 
 $("#download").click(() => {
+
+    var fechaFormateada= f.getFullYear()+  "-" + mm + "-" + dd ;
+    var resFecha = fechaFormateada.split("-");
+     var reversedFecha = resFecha.reverse(); 
+    var FechaOb=reversedFecha.join('-');
+    document.getElementById('fecha').innerHTML = fechaFormateada;
+  
     html2canvas(document.body).then(canvas => {
         var link = (<HTMLAnchorElement>document.getElementById('download'));
         var a = $("<a>")

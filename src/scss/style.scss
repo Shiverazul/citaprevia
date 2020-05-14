@@ -1,4 +1,4 @@
-html,body{
+    html,body{
     margin:0;
     height:100%;
     width: 100%;
@@ -8,7 +8,7 @@ body{
 //        background-image: url('../img/fondo-luna-Carlos1.jpg');
 //        background-image: url('../img/fondo-luna-Carlos1.jpg');
 //        background-image: "url('https://shiverazul.github.io/citaprevia/dist/assets/fondo-luna-Carlos1.jpg')";
-background-image: url('/Users/Asus/citaprevia/citaprevia/src/img/logo-carlescloquell.png');
+//        background-image: url('/Users/Asus/citaprevia/citaprevia/src/img/logo-carlescloquell.png');
 //        background-repeat: no-repeat;
 //        background-attachment: fixed;
 //        background-size: 75%;    /* 100% pc */
@@ -52,7 +52,7 @@ h2{
     margin-left: 10px;//200
 }
 .noinput{
-    width: 100%;
+    width: 60%;
     background: rgb(155, 223, 146);
     border: none;
     font-family:'Times New Roman', Times, serif;
