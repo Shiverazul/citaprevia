@@ -47,7 +47,9 @@ $("#download").click(() => {
      var reversedFecha = resFecha.reverse(); 
     var FechaOb=reversedFecha.join('-');
     document.getElementById('fecha').innerHTML = fechaFormateada;
+
   
+    
     html2canvas(document.body).then(canvas => {
         var link = (<HTMLAnchorElement>document.getElementById('download'));
         var a = $("<a>")
