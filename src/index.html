@@ -30,20 +30,22 @@
 
       <p> Data <input type="date" id="fecha" name="trip-start" class=" noinput"> </p>
 
-      <p> Hora <input type="hora" name="limitetiempo" list="listalimitestiempo" step="0.001" class=" noinput"></p>
+      <p> Hora <select name="select" class=" noinput">
+        <option value="value1" selected>  </option> 
+        <option value="value2"  >De  9.00 a 10.00 </option> 
+        <option value="value3"  >De 10.00 a 11.00 </option>
+        <option value="value4"  >De 11.00 a 12.00</option>
+        <option value="value5"  >De 12.00 a 13.00</option>
+        <option value="value6"  >- - - - - - - - </option>
+
+        <option value="value7"  >De 17.00 a 18.00</option>
+        <option value="value8"  >De 18.00 a 19.00</option>
+        <option value="value9"  >De 19.00 a 20.00</option>
+      </select>
+    <!--<p> Hora <input type="hora" name="limitetiempo" list="listalimitestiempo" ></p> -->
 
       <h2>  Us esperem. Gracies per tot !!</h2>
       <div id="download" class="screenshot"  >screenshot  </div>
       <img src="https://shiverazul.github.io/citaprevia/dist/assets/logo-carlescloquell.png"  width="180" height="90">
-
-
-      
-  <datalist id="listalimitestiempo">
-    <option value="De  9.00 a 10.00 ">
-      <option value="De 10.00 a 11.00 ">
-        <option value="De 11.00 a 12.00 ">
-          <option value="De 12.00 a 13.00 ">
-        <option value="De 17.00 a 18.00 ">
-    <option value="De 18.00 a 19.00 ">
   </datalist>
 </html>
